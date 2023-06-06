@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container__carros__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container__carros {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-image: url('../../../assets/images/carros.png');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  opacity: 0.75;
+}
+
+.container__carros__image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  object-fit: cover;
+  opacity: 80%;
+
+ }
+
+ .container__carros__card {
+   display: flex;
+   position: relative;
+   max-width: 100%;
+   height: auto;
+   margin-top: 30px;
+   margin: -150px, 15px, 0, 15px;
+   box-shadow: 0px 0px 10px rgba(0,0,0,);
+   list-style: none;
+   border-radius: 5px;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+  }
+
+.container__carros__card td  {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  word-spacing: 5px;
+  margin-top: 5px;
+  text-align:left;
+  margin-left: 7px;
+}
+
+.container__carros__btn__editar, .container__carros__btn__salvar, 
+.container__carros__btn__excluir {
+ 
+  background: #021061;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+  margin-top: 20px;
+	font: bold 15px arial,sans-serif;
+	text-shadow: none;
+
+}
+
+.container__carros__image {        
+      width: 280px;
+  }
+  
+ .column {
+  float: left;
+  width: 25%;
+ }
+  
+ @media (max-width: 1200px) {
+  .container__carros__card,
+  .container__carros__image img {
+    width: 33.33%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container__carros__card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container__carros__card {
+    width: 100%;
+  }
+}

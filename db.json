@@ -1,0 +1,85 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "modelo": "Ranger",
+      "marca": "Ford",
+      "imageUrl": "./assets/images/ranger.png",
+      "ano": 2023,
+      "cor": "Azul Belize",
+      "edite": false
+    },
+    {
+      "id": 2,
+      "modelo": "Titanium Turbo EcoBoost AT",
+      "marca": "Ford",
+      "imageUrl": "./assets/images/titanium.png",
+      "ano": 2023,
+      "cor": "Branco Bariloche",
+      "edite": false
+    },
+    {
+      "id": 3,
+      "modelo": "Mustang",
+      "marca": "Ford",
+      "imageUrl": "./assets/images/mustang.png",
+      "ano": 2022,
+      "cor": "Laranja",
+      "edite": false
+    },
+    {
+      "id": 4,
+      "modelo": "Bronco Sport",
+      "marca": "Ford",
+      "imageUrl": "./assets/images/broncoecosport.png",
+      "ano": 2023,
+      "cor": "Vermelho",
+      "edite": false
+    },
+    {
+      "id": 5,
+      "modelo": "Mavarick",
+      "marca": "Ford",
+      "imageUrl": "./assets/images/maverick.png",
+      "ano": 2022,
+      "cor": "Preto",
+      "edite": false
+    },
+    {
+      "id": 734869753052,
+      "modelo": "",
+      "imageUrl": "",
+      "marca": "",
+      "ano": 0,
+      "cor": "",
+      "edite": false
+    },
+    {
+      "id": 251493356337,
+      "modelo": "Palio",
+      "imageUrl": "",
+      "marca": "",
+      "ano": 0,
+      "cor": "",
+      "edite": false
+    },
+    {
+      "id": 1293836713363,
+      "modelo": "Onix",
+      "imageUrl": "",
+      "marca": "",
+      "ano": 0,
+      "cor": "",
+      "edite": false
+    },
+    {
+      "id": 1234832484812,
+      "modelo": "",
+      "imageUrl": "",
+      "marca": "",
+      "ano": 0,
+      "cor": "",
+      "edite": false
+    }
+  ]
+}

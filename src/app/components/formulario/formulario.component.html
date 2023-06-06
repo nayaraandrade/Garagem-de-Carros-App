@@ -1,0 +1,21 @@
+<section class="form__carro">
+  <form>
+    <h2>Cadastrar Carro</h2>
+    <div>
+      <input type="text" name="nome" [(ngModel)]="novoCarro.modelo" class="Modelo" placeholder="Modelo" required="">
+    </div>
+    <div>
+      <input type="text" name="marca" [(ngModel)]="novoCarro.marca" class="Marca" placeholder="Marca" required="">
+    </div>
+    <div><input type="text" name="ano" [(ngModel)]="novoCarro.ano" class="Ano" placeholder="Ano" required="">
+    </div>
+    <div><input type="text" name="cor" [(ngModel)]="novoCarro.cor" class="Cor" placeholder="Cor" required="">
+    </div>
+      <div><input type="text" name="image" [(ngModel)]="novoCarro.imageUrl" class="Imagem" placeholder="Imagem" required="">
+    </div>
+    <div>
+      <button (click)="adicionarCarro()" class="form__carro__btn">Adicionar Carro</button>
+    </div>
+  
+</form>
+</section>

@@ -1,0 +1,28 @@
+<div class="container__carros">
+    <app-formulario (carroAdicionado)="receberCarroAdicionado($event)"></app-formulario>
+
+    <div class="container__carros__wrapper">
+        <ul class="container__carros__card">
+
+            <li *ngFor="let carro of carros">
+                <img src="{{ carro.imageUrl }}" class="container__carros__image" alt="carro">
+                <td *ngIf="carro.edite==false">Modelo: {{ carro.modelo }}</td>
+                <td>Marca: {{ carro.marca }}</td>
+                git init
+                <td>Ano: {{ carro.ano }}</td>
+                <input type="text" [(ngModel)]="carro.ano" name="nome" *ngIf="carro.edite==true"
+                    placeholder="editar marca" />
+                <td>Cor: {{ carro.cor }}</td>
+                <input type="text" [(ngModel)]="carro.cor" name="nome" *ngIf="carro.edite==true"
+                    placeholder="editar marca" />
+                <!-- <td>Modelo: {{ carro.modelo }}</td> -->
+                <input type="text" [(ngModel)]="carro.modelo" name="nome" *ngIf="carro.edite==true"
+                    placeholder="editar marca" />
+
+                <button (click)="editarCarro(carro)" class="container__carros__btn__editar">Editar</button>
+                <button *ngIf="carro.edite==true" (click)="salvarCarro(carro)"
+                    class="container__carros__btn__salvar">Salvar</button>
+                <button (click)="excluirCarro(carro.id)" class="container__carros__btn__excluir">Excluir</button>
+        </ul>
+    </div>
+</div>
